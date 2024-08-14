@@ -1,0 +1,30 @@
+.Section2{
+    height: 230px;
+    width: 100vw;
+    background-color: #434EC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 368px;
+    justify-content: space-between;
+}
+article{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+article span{
+    font-size: 45px;
+}
+article p{
+    font-size: 18px;
+    color: #D0D4FF;
+}
+.vertical-divider {
+    width: 1px; 
+    height: 25%; 
+    background-color: #929AEF; 
+    margin: 0 1px;
+}

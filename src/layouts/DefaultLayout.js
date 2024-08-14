@@ -1,11 +1,13 @@
 import React from "react"
 import { Navigate, Route, Routes } from "react-router-dom"
 import { routes } from "../router"
-import Header from "../components/Header"
+import Marquee from "../components/Marquee"
+import Header from "../components/Header/Header"
 
 export default function DefaultLayout() {
   return (
     <div>
+      <Marquee />
       <Header />
       <main>
         <Routes>

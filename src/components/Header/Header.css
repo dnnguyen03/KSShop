@@ -1,0 +1,14 @@
+.yellow{
+    background-color: #FFEE00;
+}
+.nav-fixed{
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.scroll-nav{
+    background-color: white !important;
+    top: 0;
+    transition: 0.3s ease all;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
