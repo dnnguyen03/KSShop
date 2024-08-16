@@ -2,6 +2,8 @@ import Auction from "./pages/Auction/Auction"
 import SignIn from "./pages/auth/SignIn"
 import SignUp from "./pages/auth/SignUp"
 import Home from "./pages/Home/Home"
+import News from "./pages/News/News"
+import Shop from "./pages/Shop/Shop"
 
 export const routes = [
   {
@@ -23,29 +25,38 @@ export const routes = [
     layout: "defaultLayout",
     pages: [
       {
+        menu: true,
         name: "Trang chủ",
         path: "/Home",
         element: <Home />,
       },
       {
+        menu: true,
         name: "Đấu giá",
         path: "/Auction",
         element: <Auction />,
       },
       {
+        menu: true,
         name: "Tin tức",
         path: "/News",
-        // element: <SignUp />,
+        element: <News />,
       },
       {
-        name: "Shop",
-        path: "/Shop",
-        // element: <SignUp />,
+        menu: true,
+        name: "Sản phẩm",
+        path: "/Product",
       },
       {
-        name: "Kênh người bán",
+        menu: true,
+        name: "Trang",
         path: "/",
-        // element: <SignUp />,
+      },
+      {
+        menu: false,
+        name: "Shop",
+        path: "Shop",
+        element: <Shop />,
       },
     ],
   },
