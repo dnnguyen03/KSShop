@@ -46,18 +46,20 @@ export default function Header() {
               ({ pages, layout }, index) =>
                 layout === "defaultLayout" && (
                   <ul key={index} className="d-flex mb-0 p-0 h-100">
-                    {pages.map(({ name, path }) => (
+                    {pages.map(({ name, path, menu }) => (
                       <li key={name} className="me-4">
-                        <NavLink to={`${path}`}>
-                          {({ isActive }) => (
-                            <button
-                              style={{ padding: "10px", borderRadius: "4px" }}
-                              className={`${isActive ? "yellow" : `bg-transparent`} border-0`}
-                            >
-                              <p className="capitalize mb-0">{name}</p>
-                            </button>
-                          )}
-                        </NavLink>
+                        {menu && (
+                          <NavLink to={`${path}`}>
+                            {({ isActive }) => (
+                              <button
+                                style={{ padding: "10px", borderRadius: "4px" }}
+                                className={`${isActive ? "yellow" : `bg-transparent`} border-0`}
+                              >
+                                <p className="capitalize mb-0">{name}</p>
+                              </button>
+                            )}
+                          </NavLink>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -68,7 +70,7 @@ export default function Header() {
         <div className="link-icon-container">
           <ul className="d-flex mb-0 gap-3">
             <li className="w-100">
-              <NavLink to={`inforUser`}>
+              <NavLink to={"auth/SignIn"}>
                 <button className="bg-transparent border-0">
                   <img src={User} alt="" />
                 </button>
