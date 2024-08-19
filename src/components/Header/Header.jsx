@@ -3,7 +3,7 @@ import { routes } from "../../router"
 import { NavLink } from "react-router-dom"
 import logo from "../../assets/image/Logo.png"
 import User from "../../assets/image/User.png"
-import Search from "../../assets/image/search.png"
+import Search from "../../assets/image/searchNav.png"
 import Cart from "../../assets/image/shopping_cart.png"
 import Heart from "../../assets/image/Heart.png"
 import "./Header.css"
@@ -28,14 +28,14 @@ export default function Header() {
   }, [])
   return (
     <nav
-      style={{ height: "85px", width: "100vw" }}
+      style={{ height: "85px", width: "100vw", zIndex: "9999" }}
       className={`${
         isScrolled ? "scroll-nav" : "bg-transparent"
       }  d-flex align-items-center justify-content-center nav-fixed`}
     >
       <div
-        style={{ width: "1170px", height: "44px" }}
-        className="d-flex align-items-center justify-content-between"
+        style={{ height: "44px" }}
+        className="d-flex align-items-center justify-content-between container "
       >
         <div className="nav-header d-flex align-items-center">
           <div className="logo me-4 d-flex align-items-center justify-content-center">
