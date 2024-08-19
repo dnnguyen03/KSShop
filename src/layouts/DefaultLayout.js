@@ -1,9 +1,9 @@
-import React from "react"
-import { Navigate, Route, Routes } from "react-router-dom"
-import { routes } from "../router"
-import Marquee from "../components/Marquee"
-import Header from "../components/Header/Header"
-
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import { routes } from "../router";
+import Marquee from "../components/Marquee";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 export default function DefaultLayout() {
   return (
     <div>
@@ -21,6 +21,7 @@ export default function DefaultLayout() {
           <Route path="*" element={<Navigate to="/Home" replace />} />
         </Routes>
       </main>
+      <Footer></Footer>
     </div>
-  )
+  );
 }

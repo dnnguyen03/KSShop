@@ -1,0 +1,114 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.background {
+  background-color: #fdf0df;
+}
+.Shop {
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #ffff;
+  padding: 50px 0;
+}
+.background {
+  padding: 100px 0;
+  height: 100%;
+}
+.bia {
+  width: 390px;
+  height: 135px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+.bia img {
+  width: 79px;
+  height: 79px;
+  flex-shrink: 0;
+  padding-top: 7px;
+  padding-left: 11px;
+}
+.name {
+  width: 109px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Anek Latin";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-left: 10px;
+}
+.shop-button button {
+  width: 124px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+.flow-btn {
+  background-color: #ffee00;
+  margin: 5px 34px 17px 54px;
+}
+.chat-btn {
+  background-color: #ffff;
+}
+
+.bia {
+  background-image: url("../../assets/image/Bia.png");
+}
+.sanpham-icon img {
+  margin-bottom: 16px;
+  margin-right: 13px;
+}
+.nguoitheodoi-icon img {
+  margin-bottom: 16px;
+  margin-right: 13px;
+}
+.danhgia-icon img {
+  margin-bottom: 16px;
+  margin-right: 13px;
+}
+.dangtheodoi-icon img {
+  margin-bottom: 16px;
+  margin-right: 13px;
+}
+.shop-infor {
+  gap: 200px;
+}
+.shop-card {
+  width: 100%;
+  gap: 99px;
+}
