@@ -1,0 +1,11 @@
+.user-news {
+  width: 277.763px;
+  height: 168px;
+  border: 1px solid #F6F6F6;
+  border-radius: 18px;
+}
+.img-banner {
+  width: 277.763px;
+  height: 168px;
+  border-radius: 18px 18px 0px 0px;
+}

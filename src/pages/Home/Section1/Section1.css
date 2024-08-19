@@ -9,8 +9,8 @@
     color: black !important;
     border: 1px solid black !important;
 }
-h1{
-    font-size: 60px !important;
+.Section1 h1{
+    font-size: 65px !important;
     font-weight: 900 !important;
 }
 .underline {
@@ -21,4 +21,7 @@ h1{
 }
 .container-left{
     gap: 100px;
+}
+p{
+    margin-bottom: 0;
 }

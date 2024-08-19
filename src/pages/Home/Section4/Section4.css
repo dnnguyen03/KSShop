@@ -1,0 +1,33 @@
+.list-product{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+.Section4{
+    padding: 50px 0;
+    background-color: #FDF0DF;
+}
+.Section4 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+}
+.Section4 .title{
+    width: 40%;
+    text-align: center;
+}
+.Section4 p{
+    color: #686977;
+}
+.Section4 button{
+    padding: 12px 30px;
+    background-color: #FFEE00;
+    color: black;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}

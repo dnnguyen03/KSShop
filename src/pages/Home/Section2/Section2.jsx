@@ -45,28 +45,30 @@ export default function Section2() {
     }
   }, [handleIntersection])
   return (
-    <section className="Section2" ref={allArticleRef}>
-      <article>
-        <span class="number" data-value="8">
-          8
-        </span>
-        <p>Phong cách nổi bật</p>
-      </article>
-      <div className="vertical-divider"></div>
-      <article>
-        <span class="number" data-value="12"></span>
-        <p>Cung cụ tìm kiếm thời trang</p>
-      </article>
-      <div className="vertical-divider"></div>
-      <article>
-        <span class="number" data-value="108"></span>
-        <p>Người mua sắm toàn cầu</p>
-      </article>
-      <div className="vertical-divider"></div>
-      <article>
-        <span class="number" data-value="310"></span>
-        <p>Phong cách thịnh hành</p>
-      </article>
+    <section className="Section2">
+      <div className="content-section2 container" ref={allArticleRef}>
+        <article>
+          <span className="number" data-value="8">
+            8
+          </span>
+          <p>Phong cách nổi bật</p>
+        </article>
+        <div className="vertical-divider"></div>
+        <article>
+          <span className="number" data-value="12"></span>
+          <p>Cung cụ tìm kiếm thời trang</p>
+        </article>
+        <div className="vertical-divider"></div>
+        <article>
+          <span className="number" data-value="108"></span>
+          <p>Người mua sắm toàn cầu</p>
+        </article>
+        <div className="vertical-divider"></div>
+        <article>
+          <span className="number" data-value="310"></span>
+          <p>Phong cách thịnh hành</p>
+        </article>
+      </div>
     </section>
   )
 }
