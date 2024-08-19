@@ -1,9 +1,10 @@
-import AllProduct from "./pages/Product/AllProduct"
+import AllProduct from "./pages/AllProduct/AllProduct"
 import Auction from "./pages/Auction/Auction"
 import SignIn from "./pages/auth/SignIn"
 import SignUp from "./pages/auth/SignUp"
 import Home from "./pages/Home/Home"
 import News from "./pages/News/News"
+import Product from "./pages/Product/Product"
 import Shop from "./pages/Shop/Shop"
 
 export const routes = [
@@ -46,7 +47,7 @@ export const routes = [
       {
         menu: true,
         name: "Sản phẩm",
-        path: "/Product",
+        path: "/AllProduct",
         element: <AllProduct />,
       },
       {
@@ -57,8 +58,14 @@ export const routes = [
       {
         menu: false,
         name: "Shop",
-        path: "Shop",
+        path: "/Shop",
         element: <Shop />,
+      },
+      {
+        menu: false,
+        name: "Product",
+        path: "/Product",
+        element: <Product />,
       },
     ],
   },

@@ -1,0 +1,12 @@
+.Product{
+    margin: 100px 0;
+}
+.left-container{
+    width: 50%;
+}
+.right-container{
+    width: 50%;
+}
+.Product img{
+    width: 100%;
+}
