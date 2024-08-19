@@ -10,11 +10,10 @@ import Comment from '../../assets/image/Comment.svg';
 import Repost from '../../assets/image/Repost.svg';
 import Dots from '../../assets/image/Dots.svg';
 import CarouselImage1 from '../../assets/image/img-news.png';
-import PlusIcon from '../../assets/image/Plus-Icon.svg';
 
 export default function News() {
   return (
-    <main style={{ backgroundColor: '#F6F6F6' }}>
+    <main style={{backgroundColor: "#F6F6F6"}}>
       <div style={{ paddingTop: '100px' }} className="container">
         <div className="row">
           <div className="col">
@@ -22,14 +21,7 @@ export default function News() {
               <div className="img-banner">
                 <img src={Banner} alt="news" />
               </div>
-              <div
-                className="info"
-                style={{
-                  backgroundColor: '#FFF',
-                  borderBottomRightRadius: '16px',
-                  borderBottomLeftRadius: '16px',
-                }}
-              >
+              <div className="info">
                 <h3 className="fs-5">Trường Võ</h3>
                 <p>Người dùng</p>
               </div>
@@ -77,29 +69,19 @@ export default function News() {
                 </div>
               </div>
             </div>
-
+  
             <div className="border-top pt-3 d-flex mb-3">
-              <div className="news-icon">
-                <img
-                  className="position-relative"
-                  style={{
-                    width: '50px',
-                    height: '50px',
-                    marginRight: '12px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
-                  }}
-                  src={UserIcon}
-                  alt="icon"
-                ></img>
-                {/* <button className="bg-transparent border-0">
-                  <img
-                    src={PlusIcon}
-                    alt="plus-follow"
-                    className="position-absolute"
-                  ></img>
-                </button> */}
-              </div>
+              <img
+                style={{
+                  width: '50px',
+                  height: '50px',
+                  marginRight: '12px',
+                  objectFit: 'cover',
+                  borderRadius: '100rem',
+                }}
+                src={UserIcon}
+                alt="icon"
+              ></img>
               <div className="news-article">
                 <div className="d-flex justify-content-between">
                   <h4
@@ -144,7 +126,7 @@ export default function News() {
                     </button>
                   </div>
                 </div>
-
+  
                 <p
                   style={{
                     marginBottom: '12px',
@@ -155,8 +137,7 @@ export default function News() {
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <div className="d-flex gap-3 align-content-center">
                   <div className="d-flex gap-2">
@@ -179,7 +160,7 @@ export default function News() {
                 </div>
               </div>
             </div>
-
+  
             <div className="border-top pt-3 d-flex mb-3">
               <img
                 style={{
@@ -236,7 +217,7 @@ export default function News() {
                     </button>
                   </div>
                 </div>
-
+  
                 <p
                   style={{
                     marginBottom: '12px',
@@ -247,8 +228,7 @@ export default function News() {
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <img src={CarouselImage1} alt="Carousel"></img>
                 <div
@@ -316,7 +296,7 @@ export default function News() {
                       Hồ Đức Lĩnh
                     </h4>
                   </div>
-
+  
                   <p
                     style={{
                       marginBottom: '12px',
@@ -331,8 +311,7 @@ export default function News() {
                     Dirty Coins
                   </p>
                 </div>
-                <button
-                  className="border-0"
+                <button className="border-0"
                   type="button"
                   style={{
                     backgroundColor: '#FFD700',
@@ -350,135 +329,6 @@ export default function News() {
                   Kết bạn
                 </button>
               </div>
-              <div className="pt-3 d-flex mb-3 justify-content-center align-content-center gap-2">
-                <img
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
-                  }}
-                  src={UserIcon}
-                  alt="icon"
-                ></img>
-                <div className="news-article ml-2">
-                  <div className="d-flex justify-content-between">
-                    <h4
-                      style={{
-                        marginBottom: '9px',
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#000',
-                        textOverflow: 'ellipsis',
-                      }}
-                    >
-                      Hồ Đức Lĩnh
-                    </h4>
-                  </div>
-
-                  <p
-                    style={{
-                      marginBottom: '12px',
-                      fontSize: '14px',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      fontWeight: '300',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
-                    }}
-                  >
-                    Dirty Coins
-                  </p>
-                </div>
-                <button
-                  className="border-0"
-                  type="button"
-                  style={{
-                    backgroundColor: '#FFD700',
-                    padding: '10px',
-                    borderRadius: '4px',
-                    color: '#000',
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    lineHeight: '7px',
-                    width: '64.872px',
-                    height: '32px',
-                  }}
-                >
-                  Kết bạn
-                </button>
-              </div>
-              <div className="pt-3 d-flex mb-3 justify-content-center align-content-center gap-2 border-bottom">
-                <img
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
-                  }}
-                  src={UserIcon}
-                  alt="icon"
-                ></img>
-                <div className="news-article ml-2">
-                  <div className="d-flex justify-content-between">
-                    <h4
-                      style={{
-                        marginBottom: '9px',
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#000',
-                        textOverflow: 'ellipsis',
-                      }}
-                    >
-                      Hồ Đức Lĩnh
-                    </h4>
-                  </div>
-
-                  <p
-                    style={{
-                      marginBottom: '12px',
-                      fontSize: '14px',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      fontWeight: '300',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
-                    }}
-                  >
-                    Dirty Coins
-                  </p>
-                </div>
-                <button
-                  className="border-0"
-                  type="button"
-                  style={{
-                    backgroundColor: '#FFD700',
-                    padding: '10px',
-                    borderRadius: '4px',
-                    color: '#000',
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    lineHeight: '7px',
-                    width: '64.872px',
-                    height: '32px',
-                  }}
-                >
-                  Kết bạn
-                </button>
-              </div>
-
-              <button
-                className="text-center bg-transparent border-0"
-                style={{ fontWeight: '500' }}
-              >
-                See All
-              </button>
             </div>
           </div>
         </div>

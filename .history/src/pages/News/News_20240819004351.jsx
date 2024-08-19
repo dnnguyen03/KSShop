@@ -92,13 +92,13 @@ export default function News() {
                   src={UserIcon}
                   alt="icon"
                 ></img>
-                {/* <button className="bg-transparent border-0">
+                <button className="bg-transparent border-0">
                   <img
                     src={PlusIcon}
                     alt="plus-follow"
                     className="position-absolute"
                   ></img>
-                </button> */}
+                </button>
               </div>
               <div className="news-article">
                 <div className="d-flex justify-content-between">

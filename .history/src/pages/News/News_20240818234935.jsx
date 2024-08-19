@@ -14,7 +14,7 @@ import PlusIcon from '../../assets/image/Plus-Icon.svg';
 
 export default function News() {
   return (
-    <main style={{ backgroundColor: '#F6F6F6' }}>
+    <main style={{backgroundColor: "#F6F6F6"}}>
       <div style={{ paddingTop: '100px' }} className="container">
         <div className="row">
           <div className="col">
@@ -22,14 +22,7 @@ export default function News() {
               <div className="img-banner">
                 <img src={Banner} alt="news" />
               </div>
-              <div
-                className="info"
-                style={{
-                  backgroundColor: '#FFF',
-                  borderBottomRightRadius: '16px',
-                  borderBottomLeftRadius: '16px',
-                }}
-              >
+              <div className="info" style={{backgroundColor: "#FFF", borderBottomRightRadius: "16px", borderBottomLeftRadius: "16px"}}>
                 <h3 className="fs-5">Trường Võ</h3>
                 <p>Người dùng</p>
               </div>
@@ -77,11 +70,11 @@ export default function News() {
                 </div>
               </div>
             </div>
-
+  
             <div className="border-top pt-3 d-flex mb-3">
               <div className="news-icon">
                 <img
-                  className="position-relative"
+                  className='position-relative'
                   style={{
                     width: '50px',
                     height: '50px',
@@ -91,14 +84,7 @@ export default function News() {
                   }}
                   src={UserIcon}
                   alt="icon"
-                ></img>
-                {/* <button className="bg-transparent border-0">
-                  <img
-                    src={PlusIcon}
-                    alt="plus-follow"
-                    className="position-absolute"
-                  ></img>
-                </button> */}
+                ><img src={PlusIcon} alt="plus-follow" className='position-absolute '></img></img>
               </div>
               <div className="news-article">
                 <div className="d-flex justify-content-between">
@@ -144,7 +130,7 @@ export default function News() {
                     </button>
                   </div>
                 </div>
-
+  
                 <p
                   style={{
                     marginBottom: '12px',
@@ -155,8 +141,7 @@ export default function News() {
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <div className="d-flex gap-3 align-content-center">
                   <div className="d-flex gap-2">
@@ -179,7 +164,7 @@ export default function News() {
                 </div>
               </div>
             </div>
-
+  
             <div className="border-top pt-3 d-flex mb-3">
               <img
                 style={{
@@ -236,7 +221,7 @@ export default function News() {
                     </button>
                   </div>
                 </div>
-
+  
                 <p
                   style={{
                     marginBottom: '12px',
@@ -247,8 +232,7 @@ export default function News() {
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <img src={CarouselImage1} alt="Carousel"></img>
                 <div
@@ -316,7 +300,7 @@ export default function News() {
                       Hồ Đức Lĩnh
                     </h4>
                   </div>
-
+  
                   <p
                     style={{
                       marginBottom: '12px',
@@ -331,8 +315,7 @@ export default function News() {
                     Dirty Coins
                   </p>
                 </div>
-                <button
-                  className="border-0"
+                <button className="border-0"
                   type="button"
                   style={{
                     backgroundColor: '#FFD700',
@@ -377,7 +360,7 @@ export default function News() {
                       Hồ Đức Lĩnh
                     </h4>
                   </div>
-
+  
                   <p
                     style={{
                       marginBottom: '12px',
@@ -392,8 +375,7 @@ export default function News() {
                     Dirty Coins
                   </p>
                 </div>
-                <button
-                  className="border-0"
+                <button className="border-0"
                   type="button"
                   style={{
                     backgroundColor: '#FFD700',
@@ -438,7 +420,7 @@ export default function News() {
                       Hồ Đức Lĩnh
                     </h4>
                   </div>
-
+  
                   <p
                     style={{
                       marginBottom: '12px',
@@ -453,8 +435,7 @@ export default function News() {
                     Dirty Coins
                   </p>
                 </div>
-                <button
-                  className="border-0"
+                <button className="border-0"
                   type="button"
                   style={{
                     backgroundColor: '#FFD700',
@@ -473,12 +454,7 @@ export default function News() {
                 </button>
               </div>
 
-              <button
-                className="text-center bg-transparent border-0"
-                style={{ fontWeight: '500' }}
-              >
-                See All
-              </button>
+              <button className="text-center bg-transparent border-0" style={{fontWeight: '500'}}>See All</button>
             </div>
           </div>
         </div>
