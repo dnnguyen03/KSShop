@@ -1,3 +1,4 @@
+import AllProduct from "./pages/Product/AllProduct"
 import Auction from "./pages/Auction/Auction"
 import SignIn from "./pages/auth/SignIn"
 import SignUp from "./pages/auth/SignUp"
@@ -46,6 +47,7 @@ export const routes = [
         menu: true,
         name: "Sản phẩm",
         path: "/Product",
+        element: <AllProduct />,
       },
       {
         menu: true,

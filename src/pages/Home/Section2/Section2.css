@@ -1,12 +1,14 @@
-.Section2{
+.content-section2{
     height: 230px;
     width: 100vw;
     background-color: #434EC4;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 368px;
     justify-content: space-between;
+}
+.Section2{
+    background-color: #434EC4;
 }
 article{
     display: flex;

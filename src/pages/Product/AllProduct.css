@@ -1,0 +1,132 @@
+.AllProduct{
+    padding: 100px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;    
+}
+.valueFilter{
+    display: flex;
+    gap: 15px;
+    color: #575363;
+}
+.valueFilter *{
+    cursor: pointer;
+}
+.AllProduct h5{
+    margin-bottom: 0;
+}
+.AllProduct .left-container p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.left-container .filter-by-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+    width: 100%;
+    top: 0;
+}
+
+.left-container{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    top: 100px;
+}
+.right-container{
+    width: 80%;
+}
+.header-container{
+    width: 100%;
+}
+.DanhMuc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.listDanhMuc{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+.DanhMuc .image{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #FFFAE3;
+}
+.DanhMuc .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.filter-prod{
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 230px;
+    border: 1px solid #999;
+}
+.filter .select {
+    margin: 0 20px;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#filter-prod-open:checked ~ .sub-filter-prod {
+    visibility: visible;
+    opacity: 1;
+    max-height: 400px;
+  }
+#filter-prod-open:checked ~ label .icon-down{
+    transform: rotate(180deg);
+}
+.icon-down{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sub-filter-prod {
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+    opacity: 0;
+    max-height: 0;
+    visibility: hidden;
+}
+
+.sub-filter-prod p{
+    display: table;
+    margin:10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.AllProduct .search{
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.search input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: 1px solid #191720;
+}
+.AllProduct .icon-search{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
