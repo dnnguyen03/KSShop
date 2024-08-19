@@ -92,13 +92,25 @@ export default function News() {
                   src={UserIcon}
                   alt="icon"
                 ></img>
-                {/* <button className="bg-transparent border-0">
+                <button className="bg-transparent border-0">
                   <img
                     src={PlusIcon}
                     alt="plus-follow"
                     className="position-absolute"
                   ></img>
-                </button> */}
+                  <div class="avatar">
+                    <img
+                      class="avatar-img"
+                      src="/assets/img/avatars/1.jpg"
+                      alt="user@email.com"
+                    ></img>
+                    <span class="avatar-status bg-success"></span>
+                  </div>
+                  <div class="avatar bg-secondary">
+                    CUI
+                    <span class="avatar-status bg-danger"></span>
+                  </div>
+                </button>
               </div>
               <div className="news-article">
                 <div className="d-flex justify-content-between">

@@ -1,0 +1,33 @@
+.news-left {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #F6F6F6;
+  padding: 0;
+}
+.img-banner {
+  width: 100%;
+  
+}
+
+.img-banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.news-left img {
+  left: 20px;
+}
+
+.info .line {
+  background-color: #F6F6F6;
+  border-radius: 50%;
+}
+
+.info .line-top {
+  background-color: #00ACFF;
+} 
+
+.info {
+  padding-left: 85px;
+}
+
