@@ -1,39 +1,32 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-img,
-picture,
-svg,
-video {
+
+.Shop img,
+.Shop picture,
+.Shop svg,
+.Shop video {
   display: block;
   max-width: 100%;
 }
-input,
-select,
-textarea {
+.Shop input,
+.Shop select,
+.Shop textarea {
   background-color: transparent;
   outline: none;
 }
-button {
+.Shop button {
   cursor: pointer;
   background-color: transparent;
   outline: none;
   border: 0;
 }
-body {
+.Shop body {
   min-height: 100vh;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
 }
 .background {
+  padding: 100px 0;
+  height: 100%;
   background-color: #fdf0df;
 }
 .Shop {
@@ -42,25 +35,23 @@ body {
   background-color: #ffff;
   padding: 50px 0;
 }
-.background {
-  padding: 100px 0;
-  height: 100%;
-}
-.bia {
+
+.Shop .bia {
   width: 390px;
   height: 135px;
   flex-shrink: 0;
   border-radius: 10px;
-  margin-left: 200px;
+    background-image: url("../../assets/image/Bia.png");
+
 }
-.bia img {
+.Shop .bia img {
   width: 79px;
   height: 79px;
   flex-shrink: 0;
   padding-top: 7px;
   padding-left: 11px;
 }
-.name {
+.Shop .name {
   width: 109px;
   height: 24px;
   flex-shrink: 0;
@@ -86,9 +77,6 @@ body {
   background-color: #ffff;
 }
 
-.bia {
-  background-image: url("../../assets/image/Bia.png");
-}
 .sanpham-icon img {
   margin-bottom: 16px;
   margin-right: 13px;

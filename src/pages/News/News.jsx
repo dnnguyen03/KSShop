@@ -1,21 +1,21 @@
-import React from 'react';
-import './News.css';
-import Banner from '../../assets/image/banner-user-news.png';
-import UserIcon from '../../assets/image/User-5.png';
-import Paper from '../../assets/image/paperclip.svg';
-import Send from '../../assets/image/Send.svg';
-import SendBlack from '../../assets/image/Send-black.svg';
-import Like from '../../assets/image/Like.svg';
-import Comment from '../../assets/image/Comment.svg';
-import Repost from '../../assets/image/Repost.svg';
-import Dots from '../../assets/image/Dots.svg';
-import CarouselImage1 from '../../assets/image/img-news.png';
-import PlusIcon from '../../assets/image/Plus-Icon.svg';
+import React from "react"
+import "./News.css"
+import Banner from "../../assets/image/banner-user-news.png"
+import UserIcon from "../../assets/image/User-5.png"
+import Paper from "../../assets/image/paperclip.svg"
+import Send from "../../assets/image/Send.svg"
+import SendBlack from "../../assets/image/Send-black.svg"
+import Like from "../../assets/image/Like.svg"
+import Comment from "../../assets/image/Comment.svg"
+import Repost from "../../assets/image/Repost.svg"
+import Dots from "../../assets/image/Dots.svg"
+import CarouselImage1 from "../../assets/image/img-news.png"
+// import PlusIcon from '../../assets/image/Plus-Icon.svg';
 
 export default function News() {
   return (
-    <main style={{ backgroundColor: '#F6F6F6' }}>
-      <div style={{ paddingTop: '100px' }} className="container">
+    <main style={{ backgroundColor: "#F6F6F6" }}>
+      <div style={{ paddingTop: "100px" }} className="container">
         <div className="row">
           <div className="col">
             <div className="row news-left position-relative">
@@ -25,16 +25,16 @@ export default function News() {
               <div
                 className="info"
                 style={{
-                  backgroundColor: '#FFF',
-                  borderBottomRightRadius: '16px',
-                  borderBottomLeftRadius: '16px',
+                  backgroundColor: "#FFF",
+                  borderBottomRightRadius: "16px",
+                  borderBottomLeftRadius: "16px",
                 }}
               >
                 <h3 className="fs-5">Trường Võ</h3>
                 <p>Người dùng</p>
               </div>
               <img
-                style={{ width: '70px' }}
+                style={{ width: "70px" }}
                 className="position-absolute top-50 translate-middle-y"
                 src={UserIcon}
                 alt="icon"
@@ -45,11 +45,11 @@ export default function News() {
             <div className="d-flex mb-3">
               <img
                 style={{
-                  width: '50px',
-                  height: '50px',
-                  marginRight: '12px',
-                  objectFit: 'cover',
-                  borderRadius: '100rem',
+                  width: "50px",
+                  height: "50px",
+                  marginRight: "12px",
+                  objectFit: "cover",
+                  borderRadius: "100rem",
                 }}
                 src={UserIcon}
                 alt="icon"
@@ -57,12 +57,12 @@ export default function News() {
               <div className="news-article">
                 <p
                   style={{
-                    marginBottom: '12px',
-                    fontSize: '14px',
-                    fontStyle: 'normal',
-                    lineHeight: '19px',
-                    color: '#999',
-                    textOverflow: 'ellipsis',
+                    marginBottom: "12px",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    lineHeight: "19px",
+                    color: "#999",
+                    textOverflow: "ellipsis",
                   }}
                 >
                   Chia sẻ điều gì đó ...
@@ -83,11 +83,11 @@ export default function News() {
                 <img
                   className="position-relative"
                   style={{
-                    width: '50px',
-                    height: '50px',
-                    marginRight: '12px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
+                    width: "50px",
+                    height: "50px",
+                    marginRight: "12px",
+                    objectFit: "cover",
+                    borderRadius: "100rem",
                   }}
                   src={UserIcon}
                   alt="icon"
@@ -104,13 +104,13 @@ export default function News() {
                 <div className="d-flex justify-content-between">
                   <h4
                     style={{
-                      marginBottom: '9px',
-                      fontSize: '14px',
-                      fontWeight: '500',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
+                      marginBottom: "9px",
+                      fontSize: "14px",
+                      fontWeight: "500",
+                      fontStyle: "normal",
+                      lineHeight: "19px",
+                      color: "#000",
+                      textOverflow: "ellipsis",
                     }}
                   >
                     Trường Võ
@@ -118,12 +118,12 @@ export default function News() {
                   <div className="d-flex justify-content-between gap-2">
                     <p
                       style={{
-                        marginBottom: '12px',
-                        fontSize: '14px',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#999999',
-                        textOverflow: 'ellipsis',
+                        marginBottom: "12px",
+                        fontSize: "14px",
+                        fontStyle: "normal",
+                        lineHeight: "19px",
+                        color: "#999999",
+                        textOverflow: "ellipsis",
                       }}
                     >
                       2 phút
@@ -133,12 +133,12 @@ export default function News() {
                         src={Dots}
                         alt="icon"
                         style={{
-                          marginBottom: '12px',
-                          fontSize: '14px',
-                          fontStyle: 'normal',
-                          lineHeight: '19px',
-                          color: '#000',
-                          textOverflow: 'ellipsis',
+                          marginBottom: "12px",
+                          fontSize: "14px",
+                          fontStyle: "normal",
+                          lineHeight: "19px",
+                          color: "#000",
+                          textOverflow: "ellipsis",
                         }}
                       ></img>
                     </button>
@@ -147,16 +147,15 @@ export default function News() {
 
                 <p
                   style={{
-                    marginBottom: '12px',
-                    fontSize: '14px',
-                    fontStyle: 'normal',
-                    lineHeight: '19px',
-                    color: '#000',
-                    textOverflow: 'ellipsis',
+                    marginBottom: "12px",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    lineHeight: "19px",
+                    color: "#000",
+                    textOverflow: "ellipsis",
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <div className="d-flex gap-3 align-content-center">
                   <div className="d-flex gap-2">
@@ -183,11 +182,11 @@ export default function News() {
             <div className="border-top pt-3 d-flex mb-3">
               <img
                 style={{
-                  width: '50px',
-                  height: '50px',
-                  marginRight: '12px',
-                  objectFit: 'cover',
-                  borderRadius: '100rem',
+                  width: "50px",
+                  height: "50px",
+                  marginRight: "12px",
+                  objectFit: "cover",
+                  borderRadius: "100rem",
                 }}
                 src={UserIcon}
                 alt="icon"
@@ -196,13 +195,13 @@ export default function News() {
                 <div className="d-flex justify-content-between">
                   <h4
                     style={{
-                      marginBottom: '9px',
-                      fontSize: '14px',
-                      fontWeight: '500',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
+                      marginBottom: "9px",
+                      fontSize: "14px",
+                      fontWeight: "500",
+                      fontStyle: "normal",
+                      lineHeight: "19px",
+                      color: "#000",
+                      textOverflow: "ellipsis",
                     }}
                   >
                     Trường Võ
@@ -210,12 +209,12 @@ export default function News() {
                   <div className="d-flex justify-content-between gap-2">
                     <p
                       style={{
-                        marginBottom: '12px',
-                        fontSize: '14px',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#999999',
-                        textOverflow: 'ellipsis',
+                        marginBottom: "12px",
+                        fontSize: "14px",
+                        fontStyle: "normal",
+                        lineHeight: "19px",
+                        color: "#999999",
+                        textOverflow: "ellipsis",
                       }}
                     >
                       1 phút
@@ -225,12 +224,12 @@ export default function News() {
                         src={Dots}
                         alt="icon"
                         style={{
-                          marginBottom: '12px',
-                          fontSize: '14px',
-                          fontStyle: 'normal',
-                          lineHeight: '19px',
-                          color: '#000',
-                          textOverflow: 'ellipsis',
+                          marginBottom: "12px",
+                          fontSize: "14px",
+                          fontStyle: "normal",
+                          lineHeight: "19px",
+                          color: "#000",
+                          textOverflow: "ellipsis",
                         }}
                       ></img>
                     </button>
@@ -239,22 +238,18 @@ export default function News() {
 
                 <p
                   style={{
-                    marginBottom: '12px',
-                    fontSize: '14px',
-                    fontStyle: 'normal',
-                    lineHeight: '19px',
-                    color: '#000',
-                    textOverflow: 'ellipsis',
+                    marginBottom: "12px",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    lineHeight: "19px",
+                    color: "#000",
+                    textOverflow: "ellipsis",
                   }}
                 >
-                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của
-                  tôi
+                  Tôi rất vui được chia sẻ với bạn những sản phẩm mới nhất của tôi
                 </p>
                 <img src={CarouselImage1} alt="Carousel"></img>
-                <div
-                  className="d-flex gap-3 align-content-center"
-                  style={{ marginTop: '12px' }}
-                >
+                <div className="d-flex gap-3 align-content-center" style={{ marginTop: "12px" }}>
                   <div className="d-flex gap-2">
                     <button className="bg-transparent border-0">
                       <img src={Like} alt="icon"></img>
@@ -276,15 +271,15 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="col" style={{ padding: '0' }}>
+          <div className="col" style={{ padding: "0" }}>
             <div className="row news-right">
               <p
                 style={{
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  fontWeight: '500',
-                  lineHeight: 'normal',
-                  textAlign: 'center',
+                  fontSize: "16px",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  lineHeight: "normal",
+                  textAlign: "center",
                 }}
               >
                 Những người bạn có thể biết:
@@ -292,10 +287,10 @@ export default function News() {
               <div className="pt-3 d-flex mb-3 justify-content-center align-content-center gap-2">
                 <img
                   style={{
-                    width: '40px',
-                    height: '40px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
+                    width: "40px",
+                    height: "40px",
+                    objectFit: "cover",
+                    borderRadius: "100rem",
                   }}
                   src={UserIcon}
                   alt="icon"
@@ -304,13 +299,13 @@ export default function News() {
                   <div className="d-flex justify-content-between">
                     <h4
                       style={{
-                        marginBottom: '9px',
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#000',
-                        textOverflow: 'ellipsis',
+                        marginBottom: "9px",
+                        fontSize: "16px",
+                        fontWeight: "500",
+                        fontStyle: "normal",
+                        lineHeight: "19px",
+                        color: "#000",
+                        textOverflow: "ellipsis",
                       }}
                     >
                       Hồ Đức Lĩnh
@@ -319,13 +314,13 @@ export default function News() {
 
                   <p
                     style={{
-                      marginBottom: '12px',
-                      fontSize: '14px',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      fontWeight: '300',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
+                      marginBottom: "12px",
+                      fontSize: "14px",
+                      fontStyle: "normal",
+                      lineHeight: "19px",
+                      fontWeight: "300",
+                      color: "#000",
+                      textOverflow: "ellipsis",
                     }}
                   >
                     Dirty Coins
@@ -335,16 +330,16 @@ export default function News() {
                   className="border-0"
                   type="button"
                   style={{
-                    backgroundColor: '#FFD700',
-                    padding: '10px',
-                    borderRadius: '4px',
-                    color: '#000',
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    lineHeight: '7px',
-                    width: '64.872px',
-                    height: '32px',
+                    backgroundColor: "#FFD700",
+                    padding: "10px",
+                    borderRadius: "4px",
+                    color: "#000",
+                    textAlign: "center",
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    lineHeight: "7px",
+                    width: "64.872px",
+                    height: "32px",
                   }}
                 >
                   Kết bạn
@@ -353,10 +348,10 @@ export default function News() {
               <div className="pt-3 d-flex mb-3 justify-content-center align-content-center gap-2">
                 <img
                   style={{
-                    width: '40px',
-                    height: '40px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
+                    width: "40px",
+                    height: "40px",
+                    objectFit: "cover",
+                    borderRadius: "100rem",
                   }}
                   src={UserIcon}
                   alt="icon"
@@ -365,13 +360,13 @@ export default function News() {
                   <div className="d-flex justify-content-between">
                     <h4
                       style={{
-                        marginBottom: '9px',
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#000',
-                        textOverflow: 'ellipsis',
+                        marginBottom: "9px",
+                        fontSize: "16px",
+                        fontWeight: "500",
+                        fontStyle: "normal",
+                        lineHeight: "19px",
+                        color: "#000",
+                        textOverflow: "ellipsis",
                       }}
                     >
                       Hồ Đức Lĩnh
@@ -380,13 +375,13 @@ export default function News() {
 
                   <p
                     style={{
-                      marginBottom: '12px',
-                      fontSize: '14px',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      fontWeight: '300',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
+                      marginBottom: "12px",
+                      fontSize: "14px",
+                      fontStyle: "normal",
+                      lineHeight: "19px",
+                      fontWeight: "300",
+                      color: "#000",
+                      textOverflow: "ellipsis",
                     }}
                   >
                     Dirty Coins
@@ -396,16 +391,16 @@ export default function News() {
                   className="border-0"
                   type="button"
                   style={{
-                    backgroundColor: '#FFD700',
-                    padding: '10px',
-                    borderRadius: '4px',
-                    color: '#000',
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    lineHeight: '7px',
-                    width: '64.872px',
-                    height: '32px',
+                    backgroundColor: "#FFD700",
+                    padding: "10px",
+                    borderRadius: "4px",
+                    color: "#000",
+                    textAlign: "center",
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    lineHeight: "7px",
+                    width: "64.872px",
+                    height: "32px",
                   }}
                 >
                   Kết bạn
@@ -414,10 +409,10 @@ export default function News() {
               <div className="pt-3 d-flex mb-3 justify-content-center align-content-center gap-2 border-bottom">
                 <img
                   style={{
-                    width: '40px',
-                    height: '40px',
-                    objectFit: 'cover',
-                    borderRadius: '100rem',
+                    width: "40px",
+                    height: "40px",
+                    objectFit: "cover",
+                    borderRadius: "100rem",
                   }}
                   src={UserIcon}
                   alt="icon"
@@ -426,13 +421,13 @@ export default function News() {
                   <div className="d-flex justify-content-between">
                     <h4
                       style={{
-                        marginBottom: '9px',
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        fontStyle: 'normal',
-                        lineHeight: '19px',
-                        color: '#000',
-                        textOverflow: 'ellipsis',
+                        marginBottom: "9px",
+                        fontSize: "16px",
+                        fontWeight: "500",
+                        fontStyle: "normal",
+                        lineHeight: "19px",
+                        color: "#000",
+                        textOverflow: "ellipsis",
                       }}
                     >
                       Hồ Đức Lĩnh
@@ -441,13 +436,13 @@ export default function News() {
 
                   <p
                     style={{
-                      marginBottom: '12px',
-                      fontSize: '14px',
-                      fontStyle: 'normal',
-                      lineHeight: '19px',
-                      fontWeight: '300',
-                      color: '#000',
-                      textOverflow: 'ellipsis',
+                      marginBottom: "12px",
+                      fontSize: "14px",
+                      fontStyle: "normal",
+                      lineHeight: "19px",
+                      fontWeight: "300",
+                      color: "#000",
+                      textOverflow: "ellipsis",
                     }}
                   >
                     Dirty Coins
@@ -457,26 +452,23 @@ export default function News() {
                   className="border-0"
                   type="button"
                   style={{
-                    backgroundColor: '#FFD700',
-                    padding: '10px',
-                    borderRadius: '4px',
-                    color: '#000',
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    lineHeight: '7px',
-                    width: '64.872px',
-                    height: '32px',
+                    backgroundColor: "#FFD700",
+                    padding: "10px",
+                    borderRadius: "4px",
+                    color: "#000",
+                    textAlign: "center",
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    lineHeight: "7px",
+                    width: "64.872px",
+                    height: "32px",
                   }}
                 >
                   Kết bạn
                 </button>
               </div>
 
-              <button
-                className="text-center bg-transparent border-0"
-                style={{ fontWeight: '500' }}
-              >
+              <button className="text-center bg-transparent border-0" style={{ fontWeight: "500" }}>
                 See All
               </button>
             </div>
@@ -484,5 +476,5 @@ export default function News() {
         </div>
       </div>
     </main>
-  );
+  )
 }

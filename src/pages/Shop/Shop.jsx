@@ -1,10 +1,12 @@
-import React from "react";
-import avatar from "../../assets/image/avatar_infomationShop.png";
-import NguoiTheoDoi from "../../assets/image/NguoiTheoDoi-icon.png";
-import DangTheoDoi from "../../assets/image/DangTheoDoi-icon.png";
-import SanPham from "../../assets/image/SanPham-icon.png";
-import DanhGia from "../../assets/image/DanhGia-icon.png";
-import "./Shop.css";
+import React from "react"
+import avatar from "../../assets/image/avatar_infomationShop.png"
+import NguoiTheoDoi from "../../assets/image/NguoiTheoDoi-icon.png"
+import DangTheoDoi from "../../assets/image/DangTheoDoi-icon.png"
+import SanPham from "../../assets/image/SanPham-icon.png"
+import DanhGia from "../../assets/image/DanhGia-icon.png"
+import "./Shop.css"
+import CardProduct from "../../components/CardProduct/CardProduct"
+import { listProduct } from "../Home/Section4/Data"
 export default function Shop() {
   return (
     <div className="background">
@@ -44,6 +46,11 @@ export default function Shop() {
           </div>
         </div>
       </div>
+      <div className="list-product mt-4 container">
+        {listProduct.map((item, index) => (
+          <CardProduct key={index} {...item} />
+        ))}
+      </div>
     </div>
-  );
+  )
 }

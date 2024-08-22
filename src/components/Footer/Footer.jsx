@@ -1,12 +1,12 @@
-import React from "react";
-import "./Footer.css";
-import skype from "../../assets/image/Skype.png";
-import linkedin from "../../assets/image/Linkedin.png";
-import facebook from "../../assets/image/facebook.png";
-import Logo from "../../assets/image/Logo.png";
-import Paypal from "../../assets/image/Paypal.png";
-import Visa from "../../assets/image/Visa.png";
-import TinDung from "../../assets/image/TinDung.png";
+import React from "react"
+import "./Footer.css"
+import skype from "../../assets/image/Skype.png"
+import linkedin from "../../assets/image/Linkedin.png"
+import facebook from "../../assets/image/facebook.png"
+import Logo from "../../assets/image/Logo.png"
+import Paypal from "../../assets/image/Paypal.png"
+import Visa from "../../assets/image/Visa.png"
+import TinDung from "../../assets/image/TinDung.png"
 
 export default function Footer() {
   return (
@@ -17,27 +17,27 @@ export default function Footer() {
             <h3 className="footer__heading">Chăm sóc khách hàng</h3>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Trung tâm trợ giúp
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Hướng dẫn mua hàng
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Hướng dẫn bán hàng
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Hướng dẫn đấu giá
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Trả hàng hoàn tiền
                 </a>
               </li>
@@ -47,37 +47,37 @@ export default function Footer() {
             <h3 className="footer__heading">KSShop</h3>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Về chúng tôi
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Cổ điển
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Đánh giá của khách hàng
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   ƯU đãi đặc biệt
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Blog
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Mẹo phong cách(Ai sợ thì đi về)
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Cộng đồng thời trang
                 </a>
               </li>
@@ -87,17 +87,17 @@ export default function Footer() {
             <h3 className="footer__heading">Giúp đỡ</h3>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Liên hệ với chúng tôi
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Liên kết đến mạng xã hội
                 </a>
               </li>
               <li className="footer-item">
-                <a href="" className="footer-item__link">
+                <a href="#" className="footer-item__link">
                   Thông tin bản quyền
                 </a>
               </li>
@@ -107,7 +107,7 @@ export default function Footer() {
             <p>Email chúng tôi</p>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="" className="footer-email__link">
+                <a href="#" className="footer-email__link">
                   ksshop@gmail.com
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function Footer() {
             <p>Goị cho chúng tôi</p>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="" className="footer-phone__link">
+                <a href="#" className="footer-phone__link">
                   000 1234 5678
                 </a>
               </li>
@@ -166,5 +166,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }

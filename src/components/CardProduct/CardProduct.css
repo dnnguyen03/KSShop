@@ -10,28 +10,26 @@
 .CardProduct:hover{
     box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.15);
 }
-image{
-    width: 100%;
-}
-.image img{
+
+.CardProduct .image img{
     width: 100%;
     border-radius: 12px;
 }
-.decs{
+.Card .decs{
     display: flex;
     gap: 10px;
     color: #686977;
 }
-.price{
+.CardProduct .price{
     margin-top: 8px;
     display: flex;
     gap: 10px;
 }
-.cart{
+.CardProduct .cart{
     border-radius: 50%;
     padding: 12px;
     transition: all 0.3s ease
 }
-.cart:hover{
+.CardProduct .cart:hover{
     background-color: #FFEE00;
 }

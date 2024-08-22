@@ -1,50 +1,27 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-input,
-select,
-textarea {
-  background-color: transparent;
-  outline: none;
-}
-button {
+.footer button {
   cursor: pointer;
   background-color: transparent;
   outline: none;
   border: 0;
 }
-body {
+.footer body {
   min-height: 100vh;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
 }
-.grid {
+.footer .grid {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
-.grid__row {
+.footer .grid__row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
 }
-.grid__column-2-4 {
+.footer .grid__column-2-4 {
   padding-left: 5px;
   padding-right: 5px;
   width: 20%;
@@ -56,7 +33,6 @@ body {
 .footer__heading {
   gap: 100px;
   color: #0b0d21;
-  font-family: "Inter";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -67,7 +43,6 @@ body {
   list-style: none;
 }
 .footer-item__link {
-  font-family: "Neurial Grotesk";
   color: #686977;
   text-decoration: none;
   font-size: 16px;
@@ -83,7 +58,6 @@ body {
 .footer-phone__link {
   text-decoration: none;
   color: #0b0d21;
-  font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -92,25 +66,23 @@ body {
 .footer-email__link {
   text-decoration: none;
   color: #0b0d21;
-  font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
 }
-.social-icon {
+.footer .social-icon {
   padding-left: 0;
   gap: 14px;
 }
-.p {
+.footer p {
   color: #686977;
-  font-family: "Neurial Grotesk";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
 }
-.grid__footer {
+.footer .grid__footer {
   border-top: 1px solid #686977;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -127,7 +99,7 @@ body {
 .grid__footer-column {
   padding: 27px 0;
 }
-.text-nonecoppy {
+.footer .text-nonecoppy {
   padding-top: 10px;
   text-align: right;
   margin-right: 20px;

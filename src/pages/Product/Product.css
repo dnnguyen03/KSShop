@@ -1,0 +1,149 @@
+.Product{
+    margin: 90px 0;
+}
+.Product .section1 {
+    gap: 100px;
+    display: flex;
+}
+.Product .left-container{
+    width: 50%;
+}
+.Product .right-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 50px;
+}
+.Product .left-container img{
+    width: 100%;
+}
+.section1 .slider-container button{
+    display: none !important;
+}
+.btnBuy ,.btnAddCart {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.btnBuy{
+    color: #00171F;
+    background-color: white;
+    border: 2px solid #00171F;
+}
+.btnAddCart{
+    border: none;
+    color: white;
+    background-color: #00171F;
+}
+.icon-heart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 1px 5px;
+    background-color: #FFF0F0;
+    border-radius: 6px;
+}
+.icon-share{
+    padding: 1px 3px;
+    border-radius: 5px;
+    background-color: #EDF0F8;
+}
+.icon-heart p{
+    color: #D46F77;
+}
+.Product .price .new-price{
+    color: #FF0000;
+}
+.Product .price .old-price{
+    color: #667479;
+    text-decoration: line-through;
+}
+.mainDesc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainDesc p{
+    font-weight: bold;
+}
+.mainDesc .content{
+    background-color: #3A4980;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 12px;
+    padding: 2px 15px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.hoanTra{
+    display: flex;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px
+}
+.hoanTra p{
+    color: #726C6C;
+}
+.boxShop{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    gap: 10px;
+}
+.boxShop button{
+    padding: 5px 10px;
+    height: fit-content;
+    color: #3A4980;
+    background-color: white;
+    border: 1px solid #3A4980;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.boxShop button:first-of-type{
+    margin-left: 50px;
+}
+.boxShop> img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+.section2{
+    padding: 50px 0;
+}
+.section2 form{
+    display: flex;
+    border-bottom: 2px solid #EAECF0;
+}
+.section2  div{
+    margin-bottom: -2px; 
+}
+.section2 form label{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid #164C96;
+    color: #164C96;
+    font-weight: bold;
+}
+.contentProduct{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.section3 .container{
+    padding: 50px 0;
+}
+.section3 .slider-container .slick-arrow::before{
+    color: #00171F;
+}
+.slick-track > div{
+    /* margin: 0 20px; */
+    padding: 0 10px;
+}
