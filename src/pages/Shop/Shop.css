@@ -41,7 +41,8 @@
   height: 135px;
   flex-shrink: 0;
   border-radius: 10px;
-  background-image: url("../../assets/image/Bia.png");
+    background-image: url("../../assets/image/Bia.png");
+
 }
 .Shop .bia img {
   width: 79px;
