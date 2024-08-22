@@ -15,8 +15,8 @@ export default function Section4() {
           </p>
         </div>
         <div className="list-product">
-          {listProduct.map((item) => (
-            <CardProduct {...item} />
+          {listProduct.map((item, index) => (
+            <CardProduct key={index} {...item} />
           ))}
         </div>
         <button>Xem tất cả</button>

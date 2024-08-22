@@ -15,13 +15,8 @@ export const filterData = [
   },
   {
     title: "Màu sắc",
-    valueFilter: ["Đỏ", "Tím", "Cam", "đen", "xanh lá", "xanh dương", "hồng"],
+    valueFilter: ["Đỏ", "Tím", "Cam", "đen", "xanh lá", "xanh dương", "hồng", "Trắng"],
     value: "color",
-  },
-  {
-    title: "Loại",
-    valueFilter: ["Slim", "Regular"],
-    value: "type",
   },
   {
     title: "Size",

@@ -95,6 +95,8 @@
     transition: 0.5s;
 }
 .sub-filter-prod {
+    position: relative;
+    z-index: 10;
     margin-top: 10px;
     width: 100%;
     background-color: white;
@@ -119,7 +121,7 @@
     justify-content: space-between;
     gap: 50px;
 }
-.search input{
+.AllProduct .search input{
     width: 100%;
     border-radius: 8px;
     padding: 5px 10px;

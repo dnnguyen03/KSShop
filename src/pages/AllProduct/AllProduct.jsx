@@ -80,8 +80,8 @@ export default function AllProduct() {
           </div>
         </div>
         <div className="list-product mt-4">
-          {listProduct.map((item) => (
-            <CardProduct {...item} />
+          {listProduct.map((item, index) => (
+            <CardProduct key={index} {...item} />
           ))}
         </div>
       </div>
