@@ -3,9 +3,11 @@ import cart from "../../assets/image/cart.png"
 import "./CardProduct.css"
 
 export default function CardProduct(props) {
-  console.log(props)
-
   const { productName, gender, Age, price, image, priceSale } = props
+  const formatNumber = (number) => {
+    return number.toLocaleString("vi-VN")
+  }
+
   return (
     <div className="CardProduct">
       <div className="image">
@@ -21,11 +23,11 @@ export default function CardProduct(props) {
           <div className="price">
             {priceSale && (
               <h5 style={{ color: "#FF0000" }} className="new-price">
-                ₫{priceSale}
+                ₫{formatNumber(priceSale)}
               </h5>
             )}
             <h5 className={`old-price ${priceSale && "text-decoration-line-through"} `}>
-              ₫{price}
+              ₫{formatNumber(price)}
             </h5>
           </div>
         </div>
