@@ -9,43 +9,37 @@
     border-radius:  12px;
 }
 
-img{
+.CardAuction img{
     max-width: 100%;
     height:  auto;
     border-radius: 12px;
-menu-img{
-    width: 246px;
-    height: 226px;
-}
+
 }
 .CardAuction {
     width: 270px;
     height: 560px;
 }
 
-.card{
+.CardAuction .card{
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 12px;
 } 
-.image menu-img{
-    width: 100%;
-    border-radius: 12px;
-}
-.title{
+
+.CardAuction .title{
     margin-top: 8px;
     display: flex;
     gap: 10px;
     top: 0;
     left: 73px;
 }
-.nameAuction{
+.CardAuction .nameAuction{
     font-size: 1.5rem;
     margin-bottom: 10px;
 
 }
-.text{
+.CardAuction .text{
     display: flex;
     justify-content: space-between;
 }

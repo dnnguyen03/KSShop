@@ -19,17 +19,29 @@ export default function Auction() {
       <div className="control container">
         <div>
           <div className="chonMuc">
-            <label className={`${selectedOption === 'all' ? 'active': ''}`} onClick={() => setSelectedOption("all")} htmlFor="optionAuction1">
+            <label
+              className={`${selectedOption === "all" ? "active" : ""}`}
+              onClick={() => setSelectedOption("all")}
+              htmlFor="optionAuction1"
+            >
               Tất cả sản phẩm
             </label>
           </div>
           <div className="chonMuc">
-            <label className={`${selectedOption === 'history' ? 'active': ''}`} onClick={() => setSelectedOption("history")} htmlFor="optionAuction2">
+            <label
+              className={`${selectedOption === "history" ? "active" : ""}`}
+              onClick={() => setSelectedOption("history")}
+              htmlFor="optionAuction2"
+            >
               Lịch sử đấu giá
             </label>
           </div>
           <div className="chonMuc">
-            <label className={`${selectedOption === 'historyOfYou' ? 'active': ''}`} onClick={() => setSelectedOption("historyOfYou")} htmlFor="optionAuction3">
+            <label
+              className={`${selectedOption === "historyOfYou" ? "active" : ""}`}
+              onClick={() => setSelectedOption("historyOfYou")}
+              htmlFor="optionAuction3"
+            >
               Lịch sử đấu giá của bạn
             </label>
           </div>
@@ -43,10 +55,10 @@ export default function Auction() {
         <div className={`contentAllProduct ${selectedOption === "all" ? "d-block" : "d-none"}`}>
           <div className="dangdienra">
             <div className="container">
-              <h4>Đấu giá đang diễn ra</h4>
+              <h4 style={{ color: "red" }}>Đấu giá đang diễn ra</h4>
               <div className="listProduct">
-              {listAuction.map((item, index) => (
-                <CardAuction key={index} {...item} />
+                {listAuction.map((item, index) => (
+                  <CardAuction key={index} {...item} />
                 ))}
               </div>
             </div>
@@ -55,28 +67,28 @@ export default function Auction() {
             <div className="container">
               <h4>Đấu giá sắp diễn ra</h4>
               <div className="listProduct">
-              <div className="list-product">
-                {listAuction.map((item, index) => (
-                <CardAuction key={index} {...item} />
-                ))}
+                <div className="list-product">
+                  {listAuction.map((item, index) => (
+                    <CardAuction key={index} {...item} />
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className={`history ${selectedOption === "history" ? "d-block" : "d-none"}`}>
-            <div className="listProduct">
-              {listAuction2.map((item, index) => (
-                <CardAuction key={index} {...item} />
-                ))}
-              </div>
+          <div className="listProduct container">
+            {listAuction2.map((item, index) => (
+              <CardAuction key={index} {...item} />
+            ))}
+          </div>
         </div>
         <div className={`historyOfYou ${selectedOption === "historyOfYou" ? "d-block" : "d-none"}`}>
-        <div className="listProduct">
-              {listAuction2.map((item, index) => (
-                <CardAuction key={index} {...item} />
-                ))}
-              </div>
+          <div className="listProduct container">
+            {listAuction2.map((item, index) => (
+              <CardAuction key={index} {...item} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
