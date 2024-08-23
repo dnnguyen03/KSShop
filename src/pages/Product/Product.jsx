@@ -11,6 +11,7 @@ import giohang from "../../assets/image/giohang.png"
 import star from "../../assets/image/5Star.png"
 import { listProduct } from "../Home/Section4/Data"
 import CardProduct from "../../components/CardProduct/CardProduct"
+import userDauGia from "../../assets/image/userDauThau.png"
 
 export default function Product() {
   const [nav1, setNav1] = useState(null)
@@ -85,8 +86,8 @@ export default function Product() {
           </div>
           <hr />
           <div className="price d-flex">
-            <h2 className="new-price me-3">100.000</h2>
-            <h2 className="old-price">200.000</h2>
+            <h2 className="new-price me-3">₫100.000</h2>
+            <h2 className="old-price">₫200.000</h2>
           </div>
           <div className="mainDesc">
             <div className="size d-flex">
@@ -133,6 +134,90 @@ export default function Product() {
             </div>
           </div>
         </div>
+        {/* <div className="right-container">
+          <div className="d-flex justify-content-between align-items-center">
+            <h2>Áo</h2>
+            <div className="d-flex gap-3">
+              <div className="icon-heart">
+                <img src={heart} alt="" />
+                <p>888</p>
+              </div>
+              <div className="icon-share">
+                <img src={share} alt="" />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div className="inforProduct">
+            <div>
+              <p>Giá khởi điểm:</p>
+              <p>2.000.000₫</p>
+            </div>
+            <div>
+              <p>Bước giá:</p>
+              <p>50.000₫</p>
+            </div>
+            <div>
+              <p>Số bước giá tối đa:</p>
+              <p>5</p>
+            </div>
+            <div>
+              <p>Thời gian bắt đầu:</p>
+              <p>14:45 - 29/08/2024</p>
+            </div>
+            <div>
+              <p>Thời gian kết thúc:</p>
+              <p>14:45 - 29/08/2024</p>
+            </div>
+            <div>
+              <p>Đếm ngược thời gian kết thúc:</p>
+              <p>01:15:59</p>
+            </div>
+            <div className="inputDauGia">
+              <input type="text" placeholder="3.050.000" />
+              <button>Đấu giá</button>
+            </div>
+            <div style={{ margin: "15px 0" }} className="boxShop">
+              <img src={aoMu1} alt="" />
+              <div>
+                <h5>Shop</h5>
+                <div className="danhGia d-flex align-items-center gap-2">
+                  <img src={star} alt="" />
+                  <p>(8)</p>
+                </div>
+              </div>
+              <button>Xem shop</button>
+              <button>Chat ngay</button>
+            </div>
+            <div className="bxhDauThau">
+              <h5>Giá thầu cao nhất</h5>
+              <div>
+                <div>
+                  <h5>1</h5>
+                  <img src={userDauGia} alt="" />
+                  <h5>Lê Tuấn</h5>
+                </div>
+                <p>3.000.000₫</p>
+              </div>
+              <div>
+                <div>
+                  <h5>2</h5>
+                  <img src={userDauGia} alt="" />
+                  <h5>Lê Tuấn</h5>
+                </div>
+                <p>2.700.000₫</p>
+              </div>
+              <div>
+                <div>
+                  <h5>3</h5>
+                  <img src={userDauGia} alt="" />
+                  <h5>Lê Tuấn</h5>
+                </div>
+                <p>2.500.000₫</p>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
       <div className="section2 container">
         <form>
