@@ -4,8 +4,12 @@ import iconSearch from "../../assets/image/search.png"
 import { danhMuc, filterData } from "./filterData"
 import { listProduct } from "../Home/Section4/Data"
 import CardProduct from "../../components/CardProduct/CardProduct"
+import useFirestore from "../../firebase/useFirestore"
 
 export default function AllProduct() {
+  // const [listProduct, setListProduct] = useState([])
+  const getInitData = useFirestore("Product")
+
   return (
     <div className="AllProduct container">
       <div className="left-container">
@@ -80,7 +84,7 @@ export default function AllProduct() {
           </div>
         </div>
         <div className="list-product mt-4">
-          {listProduct.map((item, index) => (
+          {getInitData.map((item, index) => (
             <CardProduct key={index} {...item} />
           ))}
         </div>
