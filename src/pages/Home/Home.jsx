@@ -7,7 +7,7 @@ import Section5 from "./Section5/Section5"
 
 export default function Home() {
   return (
-    <div style={{ overflow: "hidden" }} className="w-100 m-auto">
+    <div style={{ overflow: "hidden" }} className="w-100 m-auto">   
       <Section1 />
       <Section2 />
       <Section3 />
