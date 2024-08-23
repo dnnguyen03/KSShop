@@ -144,6 +144,5 @@
     color: #00171F;
 }
 .slick-track > div{
-    /* margin: 0 20px; */
-    padding: 0 10px;
+    padding: 10px;
 }
