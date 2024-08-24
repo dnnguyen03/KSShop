@@ -1,0 +1,53 @@
+.signin img {
+  max-width: 100%;
+}
+.signin input {
+  background-color: transparent;
+  outline: none;
+}
+.signin button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+.signin body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.signin .auth-form__nav {
+  display: flex;
+  gap: 75%;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+}
+.signin .flex1 {
+  display: flex;
+  margin-left: 100px;
+  gap: 5px;
+}
+.signin .flex1 p {
+  width: 50px;
+  text-align: center;
+}
+.signin .flex1 img {
+  width: 20px;
+  height: 20px;
+}
+.signin .flex2 a {
+  text-decoration: none;
+  color: rgba(234, 88, 12, 1);
+}
+.signin .all {
+  box-sizing: border-box;
+  border-top: 1px solid #787878;
+}
+.signin .logo p {
+  font-size: 50px;
+}
+.auth-form__group {
+  margin-top: 24px;
+}
