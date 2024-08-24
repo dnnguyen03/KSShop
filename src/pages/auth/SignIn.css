@@ -1,67 +1,51 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-img,
-picture,
-svg,
-video {
-  display: block;
+.signin img {
   max-width: 100%;
 }
-input,
-select,
-textarea {
+.signin input {
   background-color: transparent;
   outline: none;
 }
-button {
+.signin button {
   cursor: pointer;
   background-color: transparent;
   outline: none;
   border: 0;
 }
-body {
+.signin body {
   min-height: 100vh;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
 }
-.auth-form__nav {
+.signin .auth-form__nav {
   display: flex;
   gap: 75%;
   height: 72px;
   justify-content: center;
   align-items: center;
 }
-.flex1 {
+.signin .flex1 {
   display: flex;
   margin-left: 100px;
   gap: 5px;
 }
-.flex1 p {
+.signin .flex1 p {
   width: 50px;
   text-align: center;
 }
-.flex1 img {
+.signin .flex1 img {
   width: 20px;
   height: 20px;
 }
-.flex2 a {
+.signin .flex2 a {
   text-decoration: none;
   color: rgba(234, 88, 12, 1);
 }
-.all {
+.signin .all {
   box-sizing: border-box;
   border-top: 1px solid #787878;
 }
-.logo p {
+.signin .logo p {
   font-size: 50px;
 }
 .auth-form__group {

@@ -14,11 +14,13 @@
 .CardProduct .image img{
     width: 100%;
     border-radius: 12px;
+    height: 280px;
+    object-fit: cover;
 }
-.Card .decs{
+.CardProduct .decs{
     display: flex;
     gap: 10px;
-    color: #686977;
+    color: #686977 ; 
 }
 .CardProduct .price{
     margin-top: 8px;

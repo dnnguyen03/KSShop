@@ -8,7 +8,7 @@ import google from "../../assets/image/google-icon.png";
 import mail from "../../assets/image/Icons-mail.png";
 export default function SignIn() {
   return (
-    <div>
+    <div className="signin">
       <div className="auth-form">
         <div className="auth-form__header ">
           <div className="auth-form__nav">
