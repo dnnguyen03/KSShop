@@ -7,7 +7,7 @@ export default function Section1() {
   return (
     <section style={{ backgroundColor: "#FDF0DF", padding: "110px 0" }}>
       <div
-        style={{ gap: "100px" }}
+        style={{ gap: "200px" }}
         className="container d-flex align-items-center justify-content-center"
       >
         <div className="container-left d-flex flex-column">

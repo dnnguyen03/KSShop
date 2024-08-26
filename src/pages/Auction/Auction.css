@@ -1,32 +1,60 @@
 .Auction{
-    padding: 90px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .imageAuction img{
-    width: 100%;
+  width: 100%;
 }
 .Auction .introduce{
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0;
 }
 .Auction .control{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid #D9D9D9;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #D9D9D9;
+}
+.chonMuc{
+  margin-bottom: -2px
 }
 .chonMuc label{
-    height: 100%;
-    padding: 10px;
-    cursor: pointer;
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+  color: #98A2B3;
 }
 .Auction .control > div:first-of-type{
-    display: flex;
+  display: flex;
 }
 .realTime{
-    color: black;
-    display: flex;
-    gap: 5px;
+  color: black;
+  display: flex;
+  gap: 5px;
+}
+.Auction .listProduct{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dangdienra{
+  background-color: #FDF0DF;
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.history {
+  justify-content: space-between;
+  width: 100%;
+}
+.Auction .active{
+  color: black;
+  border-bottom: 2px solid black;
+}
+.Auction .content{
+  width: 100%;
 }
