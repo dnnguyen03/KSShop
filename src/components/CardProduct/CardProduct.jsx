@@ -3,22 +3,30 @@ import cart from "../../assets/image/cart.png"
 import "./CardProduct.css"
 
 export default function CardProduct(props) {
-  const { img, name, gender, age, oldPrice, newPrice } = props
+  console.log(props)
+
+  const { productName, gender, Age, price, image, priceSale } = props
   return (
     <div className="CardProduct">
       <div className="image">
-        <img src={img} alt="" />
+        <img src={image[0]} alt="" />
       </div>
-      <h4 className="nameProduct mt-3">{name}</h4>
-      <div className="d-flex align-items-center justify-content-between">
+      <h4 className="nameProduct mt-3">{productName}</h4>
+      <div className="d-flex align-items-center justify-content-between ">
         <div>
           <div className="decs">
             <p className="gender">Giới tính: {gender}</p>
-            <p className="age">Độ tuổi: {age}</p>
+            <p className="age">Độ tuổi: {Age}</p>
           </div>
           <div className="price">
-            <h5 className="new-price">₫{newPrice}</h5>
-            <h5 className="old-price">₫{oldPrice}</h5>
+            {priceSale && (
+              <h5 style={{ color: "#FF0000" }} className="new-price">
+                ₫{priceSale}
+              </h5>
+            )}
+            <h5 className={`old-price ${priceSale && "text-decoration-line-through"} `}>
+              ₫{price}
+            </h5>
           </div>
         </div>
         <div className="cart">

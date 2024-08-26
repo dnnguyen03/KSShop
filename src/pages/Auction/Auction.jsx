@@ -1,5 +1,5 @@
-import React from "react"
+import React, { useState } from "react"
 
 export default function Auction() {
-  return <div>Auction</div>
+  return <div className="Auction"></div>
 }

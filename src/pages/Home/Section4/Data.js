@@ -1,43 +1,48 @@
 import imgProduct from "../../../assets/image/imgProduct.png"
 export const listProduct = [
   {
-    img: imgProduct,
-    name: "Ankara Suit",
+    image: [imgProduct],
+    productName: "Ankara Suit",
     gender: "Nam",
     age: "18-20",
-    newPrice: "180.000",
-    oldPrice: "200.000",
+    price: "180000",
+    priceSale: "100000",
   },
+
   {
-    img: imgProduct,
-    name: "Ankara Suit",
+    image: [imgProduct],
+    productName: "Ankara Suit",
     gender: "Nam",
     age: "18-20",
-    newPrice: "180.000",
-    oldPrice: "200.000",
+    price: "180000",
+    priceSale: "100000",
   },
+
   {
-    img: imgProduct,
-    name: "Ankara Suit",
+    image: [imgProduct],
+    productName: "Ankara Suit",
     gender: "Nam",
     age: "18-20",
-    newPrice: "180.000",
-    oldPrice: "200.000",
+    price: "180000",
+    priceSale: "100000",
   },
+
   {
-    img: imgProduct,
-    name: "Ankara Suit",
+    image: [imgProduct],
+    productName: "Ankara Suit",
     gender: "Nam",
     age: "18-20",
     newPrice: "180.000",
-    oldPrice: "200.000",
+    price: "180000",
+    priceSale: "100000",
   },
+
   {
-    img: imgProduct,
-    name: "Ankara Suit",
+    image: [imgProduct],
+    productName: "Ankara Suit",
     gender: "Nam",
     age: "18-20",
-    newPrice: "180.000",
-    oldPrice: "200.000",
+    price: "180000",
+    priceSale: "100000",
   },
 ]

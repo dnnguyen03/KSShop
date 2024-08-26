@@ -52,7 +52,7 @@ export const routes = [
       },
       {
         menu: true,
-        name: "Trang",
+        name: "Seller",
         path: "/",
       },
       {
